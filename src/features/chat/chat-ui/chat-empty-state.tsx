@@ -81,7 +81,7 @@ export const EmptyState: FC<Prop> = (props) => {
             disable={false}
           />
         </div>
-        {showFileUpload === "data" && (
+       {/* {showFileUpload === "data" && (
           <div className="flex flex-col gap-2">
             <form onSubmit={onSubmit} className="flex gap-2">
               <Input
@@ -107,7 +107,7 @@ export const EmptyState: FC<Prop> = (props) => {
               </Button>
             </form>
           </div>
-        )}
+        )}*/}
       </Card>
     </div>
   );
